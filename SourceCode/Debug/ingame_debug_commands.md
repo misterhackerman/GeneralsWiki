@@ -84,7 +84,7 @@
   <summary>├─ AI & Team (3)</summary>
 
 | Hotkey | Command Name | Description | Accessible In | Usable in Multiplayer? | Image |
-| ------ | ------------ | ----------- |-------------- | ---------------------- | ----- |
+| ------ | ------------ | ----------- | ------------- | ---------------------- | ----- |
 | <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Space</kbd> | DEMO_SWITCH_TEAMS | Cycles through the players in the game, sequentially passing control to each one | GAME | No | [Image](https://github.com/TheSuperHackers/GeneralsWiki/raw/refs/heads/main/SourceCode/Debug/files/ingame_debugs_media/demo_switch_teams.jpg) |
 | <kbd>Ctrl</kbd> + <kbd>T</kbd> | DEMO_SWITCH_TEAMS_CHINA_USA | Cycles through USA and China players in the game on the same team as the player, sequentially passing control to each one | GAME | No | |
 | <kbd>Ctrl</kbd> + <kbd>A</kbd> | DEMO_TOGGLE_AI_DEBUG | Toggles visual AI debugging information on and off | GAME | No | [Image](https://github.com/TheSuperHackers/GeneralsWiki/raw/refs/heads/main/SourceCode/Debug/files/ingame_debugs_media/demo_toggle_ai_debug.jpg) |
