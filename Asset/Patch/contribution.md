@@ -104,7 +104,7 @@ The `Patch104p` word and `@keyword` are mandatory. `author` and date can be omit
 | @feature     | Adding something new                                        |
 | @fix         | Fixing something, but is not a user facing bug              |
 | @performance | Improving performance                                       |
-| @refactor    | Moving or rewriting code, but does not change the behavior |
+| @refactor    | Moving or rewriting code, but does not change the behavior  |
 | @tweak       | Changing some values or settings                            |
 
 Block comment sample
