@@ -123,5 +123,14 @@ CMD ["tail", "-f", "/dev/null"]
 Build the game by executing `docker build -t zerohour .`
 
 After the build you can run the container and use `docker cp`
-or you could mount a volume to `/build` so you can directly
+
+```bash
+# 1. Start the container in the background
+docker run -d --name zh_builder zerohour
+
+# 2. Copy the executable to your host machine
+docker cp zh_builder:/build/cnc/build/vc6/GeneralsMD .
+```
+
+Or you could mount a volume to `/build` so you can directly
 compile your own code and copy the binary off.
